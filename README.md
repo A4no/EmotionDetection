@@ -21,6 +21,10 @@ The proposed system will be trained on the FER-2013 dataset (Facial Expression R
 🛠️ Installation & Setup
 Clone the repository:
 
+Scores
+Accuracy: 0.41850097520200613
+mean absolute error: 1.4937308442463082
+
 Install dependencies:
 
 Model Architecture
