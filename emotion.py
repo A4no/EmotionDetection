@@ -23,7 +23,6 @@ while True:
     img = cv2.resize(frame, (IMG_SIZE, IMG_SIZE))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  
 
-    # Нормализация
     img = img / 255.0
 
     img = img.reshape(1, 48, 48, 1)
